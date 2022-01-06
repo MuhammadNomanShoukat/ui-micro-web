@@ -14,8 +14,12 @@ import GreatProduct from "../../../context/great-product/great-product.component
 import "./mob-app.style.scss";
 
 const MobApp = (props) => {
-    console.log("mob data");
-    console.log(bannerData)
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+        setWhyChoseUs(why_choose_us);
+    }, [])
+    // console.log("mob data");
+    // console.log(bannerData)
     // const [mobAppContent, setMobAppContent] = useState({
     //                                                 bannerData:"", 
     //                                                 subServicesDesc: "", 

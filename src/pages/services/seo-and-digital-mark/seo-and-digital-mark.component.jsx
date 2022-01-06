@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Row, Col, Container } from "react-bootstrap";
 
 
@@ -12,6 +12,10 @@ import GreatProduct from "../../../context/great-product/great-product.component
 import "./seo-and-digital-mark.style.scss";
 
 const SeoAndDigitalMarketing = () => {
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+        setWhyChoseUs(why_choose_us);
+    }, [])
     return(
         <section id="web_application">
             <Banner bannerContent={bannerData} />

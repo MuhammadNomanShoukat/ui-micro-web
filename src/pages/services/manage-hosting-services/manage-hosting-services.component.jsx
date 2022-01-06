@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Row, Col, Container } from "react-bootstrap";
 
 import { bannerData, subServicesDesc, greatProduct } from "./manage-hosting-services.data";
@@ -11,6 +11,10 @@ import GreatProduct from "../../../context/great-product/great-product.component
 import "./manage-hosting-services.style.scss";
 
 const ManageHostingServices = () => {
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+        setWhyChoseUs(why_choose_us);
+    }, [])
     return(
         <section id="web_application">
             <Banner bannerContent={bannerData} />

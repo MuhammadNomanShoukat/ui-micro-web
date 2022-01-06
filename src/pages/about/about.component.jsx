@@ -17,7 +17,7 @@ const AboutUs = () => {
     useEffect(()=>{
         window.scrollTo(0, 0);
         setWhyChoseUs(why_choose_us);
-    }, [])
+    }, []);
 
     console.log(whyChoseUs)
     return(

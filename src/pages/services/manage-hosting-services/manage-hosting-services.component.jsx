@@ -13,7 +13,6 @@ import "./manage-hosting-services.style.scss";
 const ManageHostingServices = () => {
     useEffect(()=>{
         window.scrollTo(0, 0);
-        setWhyChoseUs(why_choose_us);
     }, [])
     return(
         <section id="web_application">

@@ -16,7 +16,6 @@ import "./mob-app.style.scss";
 const MobApp = (props) => {
     useEffect(()=>{
         window.scrollTo(0, 0);
-        setWhyChoseUs(why_choose_us);
     }, [])
     // console.log("mob data");
     // console.log(bannerData)

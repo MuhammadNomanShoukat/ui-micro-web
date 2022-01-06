@@ -13,7 +13,6 @@ import "./ecommerce.style.scss";
 const Ecommerce = () => {
     useEffect(()=>{
         window.scrollTo(0, 0);
-        setWhyChoseUs(why_choose_us);
     }, [])
     return(
         <section id="web_application">

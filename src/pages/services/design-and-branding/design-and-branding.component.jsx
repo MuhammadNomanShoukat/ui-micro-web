@@ -13,7 +13,6 @@ import "./design-and-branding.style.scss";
 const DesignAndBranding = () => {
     useEffect(()=>{
         window.scrollTo(0, 0);
-        setWhyChoseUs(why_choose_us);
     }, [])
     return(
         <section id="web_application">

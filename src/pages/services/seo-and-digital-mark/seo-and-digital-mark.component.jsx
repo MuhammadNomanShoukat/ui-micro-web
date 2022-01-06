@@ -14,7 +14,6 @@ import "./seo-and-digital-mark.style.scss";
 const SeoAndDigitalMarketing = () => {
     useEffect(()=>{
         window.scrollTo(0, 0);
-        setWhyChoseUs(why_choose_us);
     }, [])
     return(
         <section id="web_application">

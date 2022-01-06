@@ -13,7 +13,6 @@ import "./strategic-consultancy.style.scss";
 const StrategicConsultancy = () => {
     useEffect(()=>{
         window.scrollTo(0, 0);
-        setWhyChoseUs(why_choose_us);
     }, [])
     return(
         <section id="strategic_consulting_application">

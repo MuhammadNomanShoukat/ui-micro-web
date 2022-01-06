@@ -13,7 +13,6 @@ import "./business-pro-out.style.scss";
 const BusinessProOut = () => {
     useEffect(()=>{
         window.scrollTo(0, 0);
-        setWhyChoseUs(why_choose_us);
     }, [])
     return(
         <section id="web_application">
